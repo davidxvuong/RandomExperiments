@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>JS and C# TCP communication</title>
+		<meta charset="UTF-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type ="text/javascript" src = "js/socket.js"></script>
+		<link rel ="stylesheet" type ="text/css" href ="css/stylesheet.css">
+	</head>
+	<body>
+		<h1>JavaScript and C# Communication</h1>
+		<div>
+			Name: <input id = "name"></input>
+			<button onclick ="startConnection()">Connect to Server</button><button onclick ="disconnect()">Disconnect</button><br><br>
+		</div>
+		<div>
+			Message: <input id = "message"></input>
+			<button onclick ="sendMessage()">Send Message</button>
+		</div>
+			<p id = "text"></p>
+		</div>
+	</body>
+</html>

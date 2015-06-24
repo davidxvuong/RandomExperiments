@@ -1,0 +1,5 @@
+#text{
+	border: 5px solid red;
+	height: 74%;
+	overflow-y: scroll;
+}
